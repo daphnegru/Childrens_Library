@@ -34,11 +34,13 @@ def create_graph(to_graph):
         x_axe = val.keys()
         y_axe = val.values()
         plt.title(key)
+        plt.xticks(rotation=90)
         plt.bar(x_axe, y_axe, width=0.4)
         if len(key) > 1:
             name = key
             name = name + '.jpeg'
-        plt.savefig(name)
+        plt.show()
+        # plt.savefig(name)
         plt.cla()
 
 
@@ -102,7 +104,7 @@ def stats(needed):
     # with open('decades_by_tags.json', 'w', encoding='utf-16') as jsonFile:
     #     jsonFile.write(to_save_mt)
 
-    return tags_by_decades
+    return decades_by_tags
 
 
 # this function finds the first comma, the function part_tags uses it
