@@ -34,7 +34,7 @@ def create_graph(to_graph):
         x_axe = val.keys()
         y_axe = val.values()
         plt.title(key)
-        # if the x labels overlap use the rotation = 90
+        # if the x labels overlap use the next line
         # plt.xticks(rotation=90)
         plt.bar(x_axe, y_axe, width=0.4)
         if len(key) > 1:
