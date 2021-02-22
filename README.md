@@ -1,6 +1,11 @@
 # childrens_library
 a digital humanities project
-first file: recordID_categories.txt
-second file: old_tags_to_new_tags.txt
-third file: childrens_collection.txt
-forth file: recordID_published_year.txt
+
+the parse_tags.py file needs the recordID_categories.txt file in the configuration
+
+the parse_xml.py file needs the following files in the following order in the configuration:
+
+1. recordID_categories.txt
+2. old_tags_to_new_tags.txt
+3. childrens_collection.txt
+4. recordID_published_year.txt
