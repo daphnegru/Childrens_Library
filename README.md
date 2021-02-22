@@ -1,7 +1,7 @@
 # childrens_library
-a digital humanities project
+a digital humanities project on a children's library collection.
 
-the parse_tags.py file needs the recordID_categories.txt file in the configuration
+the parse_tags.py file needs the recordID_categories.txt file in the configuration.
 
 the parse_xml.py file needs the following files in the following order in the configuration:
 
